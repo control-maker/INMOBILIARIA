@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hogares Felices México</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e3e6da3c.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background: #f9f9f9;
+    }
+    header {
+      background: #0D47A1;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #1565C0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0D47A1;
+      margin-bottom: 1rem;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .card {
+      flex: 1 1 300px;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .card i {
+      font-size: 2rem;
+      color: #1976D2;
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      background: #0D47A1;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+    button {
+      background: #1976D2;
+      color: white;
+      padding: 1rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0D47A1;
+    }
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 400px;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hogares Felices México</h1>
+    <p>Tu futuro hogar te espera</p>
+  </header>
+
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#propiedades">Propiedades</a>
+    <a href="#agentes">Nuestro Equipo</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="cards">
+      <div class="card"><i class="fas fa-home"></i><strong>Compra</strong><p>Acompañamiento completo para adquirir tu hogar ideal.</p></div>
+      <div class="card"><i class="fas fa-dollar-sign"></i><strong>Venta</strong><p>Maximizamos el valor de tu propiedad con estrategias de marketing.</p></div>
+      <div class="card"><i class="fas fa-key"></i><strong>Renta</strong><p>Soluciones para propietarios e inquilinos con gestión integral.</p></div>
+      <div class="card"><i class="fas fa-tools"></i><strong>Administración</strong><p>Gestión profesional para inmuebles en renta.</p></div>
+      <div class="card"><i class="fas fa-university"></i><strong>Asesoría Hipotecaria</strong><p>Conexión con opciones financieras sin costo.</p></div>
+      <div class="card"><i class="fas fa-balance-scale"></i><strong>Valuación</strong><p>Estimación profesional del valor de tu propiedad.</p></div>
+    </div>
+  </section>
+
+  <section id="propiedades">
+    <h2>Propiedades Disponibles</h2>
+    <div class="cards">
+      <div class="card"><i class="fas fa-home"></i><strong>Casa habitación</strong><p>Casas familiares en todo México, en zonas tranquilas y bien ubicadas.</p></div>
+      <div class="card"><i class="fas fa-house-user"></i><strong>Casas</strong><p>Desde viviendas tradicionales hasta modernas residencias.</p></div>
+      <div class="card"><i class="fas fa-building"></i><strong>Departamentos y Lofts</strong><p>Opciones modernas y céntricas para estilo de vida urbano.</p></div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.5530029384024!2d-103.36672658487926!3d20.67393840484442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428adfb85fb2837%3A0xe4c65f3d3b07a8eb!2sAv.%20Chapultepec%20Sur%20200%2C%20Col%20Americana%2C%2044160%20Guadalajara%2C%20Jal.%2C%20México!5e0!3m2!1ses!2smx!4v1717960469823!5m2!1ses!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <section id="agentes">
+    <h2>Conoce a Nuestro Equipo</h2>
+    <div class="cards">
+      <div class="card"><strong>Ana González</strong><p>Especialista en propiedades residenciales.<br> 📞 33 5555 1234<br> ✉️ ana@hogaresfelices.mx</p></div>
+      <div class="card"><strong>José Ramírez</strong><p>Asesor en compra-venta de terrenos.<br> 📞 33 4444 9876<br> ✉️ jose@hogaresfelices.mx</p></div>
+      <div class="card"><strong>Laura Ortega</strong><p>Experta en departamentos y reubicación.<br> 📞 33 7777 4567<br> ✉️ laura@hogaresfelices.mx</p></div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Tienes dudas o quieres agendar una visita? Escríbenos:</p>
+    <div id="botpress-webchat"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hogares Felices México · Av. Chapultepec Sur 200, Guadalajara · <a href="mailto:info@hogaresfelices.mx" style="color:#fff">info@hogaresfelices.mx</a></p>
+    <p>
+      <a href="https://facebook.com/HogaresFelicesMX" style="color:white; margin: 0 0.5rem;"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com/HogaresFelicesMexico" style="color:white; margin: 0 0.5rem;"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com/company/hogaresfelicesmexico" style="color:white; margin: 0 0.5rem;"><i class="fab fa-linkedin"></i></a>
+    </p>
+  </footer>
+
+  <script>
+    window.botpressWebChat = {
+  host: "https://cdn.botpress.cloud/webchat/v1",
+  botId: "67b2d16d-ef94-4ed5-98c3-7b11e30b6f8e",
+  hideWidget: false,
+  showWidget: true,
+  enableReset: true,
+  enableTranscriptDownload: true,
+  showPoweredBy: false,
+  stylesheet: 'https://cdn.jsdelivr.net/gh/botpress/webchat@master/webchat-theme.css',
+  containerWidth: '100%',
+  themeName: 'prism',
+  theme: {
+    color: {
+      primary: '#0D47A1',
+      secondary: '#1565C0',
+      background: '#ffffff',
+      text: '#333333'
+    },
+    style: {
+      borderRadius: '12px',
+      fontFamily: 'Montserrat, sans-serif'
+    }
+  }
+};
+  </script>
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+
+</body>
+</html>
